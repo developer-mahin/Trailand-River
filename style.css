@@ -174,7 +174,7 @@ section.fishingGear {
 
 .first{
    width: 435px;
-   background-image: url(image/fishing.jpg);
+   background-image: url(Image/fishing.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -182,7 +182,7 @@ section.fishingGear {
 
 .second{
    width: 435px;
-   background-image: url(image/float.jpg);
+   background-image: url(Image/float.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -190,7 +190,7 @@ section.fishingGear {
 
 .third{
    width: 435px;
-   background-image: url(image/hike.jpg);
+   background-image: url(Image/hike.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -329,7 +329,7 @@ section.sunDefenseFlyBox {
 .sun-defence{
    width: 665px;
    height: 363px;
-   background-image: url(image/sun-defence.jpg);
+   background-image: url(Image/sun-defence.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -339,7 +339,7 @@ section.sunDefenseFlyBox {
 .flyBox{
    width: 665px;
    height: 363px;
-   background-image: url(image/the-complate.jpg);
+   background-image: url(Image/the-complate.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -487,7 +487,7 @@ i#blank_star {
 
 .shopinList{
    width: 500px;
-   background-image:linear-gradient(rgba(0,0,40,0.45),rgba(0,0,40,0.45)), url(image/fishing-gajet.jpg);
+   background-image:linear-gradient(rgba(0,0,40,0.45),rgba(0,0,40,0.45)), url(Image/fishing-gajet.jpg);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
@@ -535,7 +535,7 @@ section.himalays{
 
 .containerTwo{
    width:100%;
-   background-image: linear-gradient(rgba(12, 66, 4, 0.4),rgba(12, 66, 4, 0.4)),url(image/himalayas.jpg);
+   background-image: linear-gradient(rgba(12, 66, 4, 0.4),rgba(12, 66, 4, 0.4)),url(Image/himalayas.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
