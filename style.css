@@ -1,0 +1,2222 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&family=Teko:wght@400;500;600;700&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Ropa Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Teko', sans-serif;
+}
+
+.container{
+   width: 1360px;
+   margin: auto;
+}
+
+header.top {
+   width: 100%;
+   background: #618138;
+   padding: 10px;
+}
+
+header.top p {
+   color: #fffdfd;
+   word-spacing: 2px;
+   display: block;
+   font-weight: 100;
+   text-align: center;
+}
+
+header.top span {
+   color: #c0d3a9;
+   margin-left: 5px;
+}
+
+header.top i {
+   font-size: 9px;
+}
+
+header.main_header {
+   padding: 4px 0px;
+   border-bottom: 1px solid #f3f3f3;
+}
+
+.mainHeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 270px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.headerInfo ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.headerInfo ul li a {
+   text-decoration: none;
+   color: #969696;
+   display: block;
+   padding: 19px;
+}
+
+header.menuBar {
+   border-bottom: 1px solid #f3f3f3;
+}
+
+.content {
+   width: 1070px;
+   margin: auto;
+   height: 44px;
+}
+
+nav ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 11px;
+   border-left: 1px solid #f3f3f3;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #3e3e3e;
+   margin: 0px 30px;
+   font-size: 20px;
+}
+
+nav ul li:nth-child(1){
+   border-left: none;
+}
+
+header.products .productsList {
+    width: 1245px;
+    margin: auto;
+    height: 130px;
+}
+
+.productsList ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    margin-top: 26px;
+}
+
+.productsList ul li a {
+    text-decoration: none;
+    color: #605f5f;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.imagess{
+   position: relative;
+}
+
+.bannerDescription {
+   position: absolute;
+   top: 56px;
+   left: 106px;
+}
+
+.bannerDescription h1 {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 35px;
+   letter-spacing: 1px;
+   font-weight: 600;
+}
+
+.bannerDescription p {
+   color: #fff;
+   font-size: 23px;
+   margin-bottom: 26px;
+}
+
+.bannerDescription button {
+   background: transparent;
+   color: #fff;
+   border: 3px solid #fff;
+   padding: 14px 22px;
+   width: 188px;
+   font-size: 20px;
+}
+
+button.owl-prev span {
+   position: absolute;
+   top: 152px;
+   left: 10px;
+   font-size: 130px;
+   color: #fff;
+   font-weight: 400;
+}
+
+button.owl-next span {
+   position: absolute;
+   top: 152px;
+   right: 10px;
+   font-size: 130px;
+   color: #fff;
+   font-weight: 400;
+}
+
+section.fishingGear {
+   margin: 30px 0px;
+}
+
+.first{
+   width: 435px;
+   background-image: url(image/fishing.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.second{
+   width: 435px;
+   background-image: url(image/float.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.third{
+   width: 435px;
+   background-image: url(image/hike.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.fishingGearWrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.fishingGearDescription {
+   margin-top: 283px;
+   background: rgba(0, 0, 0, 0.56);
+   padding: 16px;
+   position: relative;
+}
+
+.fishingGearDescription h2 {
+   font-size: 29px;
+   font-weight: 600;
+   color: #fff;
+}
+
+.fishingGearDescription p {
+   color: #fff;
+   word-spacing: 3px;
+   font-size: 23px;
+}
+
+.fishingGearDescription i {
+   font-size: 9px;
+}
+
+.fishingGearDescription sup.firstArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 74px;
+}
+
+.fishingGearDescription sup.secondArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 195px;
+}
+
+.fishingGearDescription sup.thirdArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 107px;
+}
+
+section.BrandPromotion {
+   overflow: hidden;
+}
+
+.title {
+   text-align: center;
+}
+
+.title h1 {
+   position: relative;
+   font-size: 38px;
+   color: #ababab;
+   font-weight: 600;
+}
+
+.title h1:before {
+   content: "";
+   position: absolute;
+   width: 37%;
+   height: 1px;
+   background: #ddd;
+   top: 12px;
+   right: 0px;
+}
+
+.title h1 span:before {
+   content: "";
+   position: absolute;
+   width: 37%;
+   height: 1px;
+   background: #ddd;
+   top: 37px;
+   right: 0px;
+}
+
+.title h1:after{
+   content: "";
+   position: absolute;
+   width: 37%;
+   height: 1px;
+   background: #ddd;
+   top: 12px;
+   left: 0px;
+}
+
+.title h1 span:after{
+   content: "";
+   position: absolute;
+   width: 37%;
+   height: 1px;
+   background: #ddd;
+   top: 37px;
+   left: 0px;
+}
+
+.brandImg {
+   display: flex;
+   justify-content: space-between;
+   padding: 40px 0px;
+}
+
+.brandImg img {
+   width: 100%;
+}
+
+.brandImg .left-arrow {
+   height: 50px;
+   margin-top: 12px;
+}
+
+.brandImg .right-arrow {
+   height: 50px;
+   margin-top: 12px;
+}
+
+section.sunDefenseFlyBox {
+   overflow: hidden;
+   margin-bottom: 30px;
+}
+
+.sunFlyBoxWrapper{
+   position: relative;
+}
+
+.sun-defence{
+   width: 665px;
+   height: 363px;
+   background-image: url(image/sun-defence.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   float: left;
+}
+
+.flyBox{
+   width: 665px;
+   height: 363px;
+   background-image: url(image/the-complate.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-left: 30px;
+   float: left;
+}
+
+.sunFlyDescription {
+   margin-top: 263px;
+   background: rgba(0, 0, 0, 0.56);
+   padding: 17px;
+   position: absolute;
+   width: 665px;
+}
+
+.sunFlyDescription h2 {
+   font-size: 29px;
+   font-weight: 600;
+   color: #fff;
+}
+
+.sunFlyDescription p {
+   color: #fff;
+   word-spacing: 3px;
+   font-size: 23px;
+}
+
+.sunFlyDescription i {
+   font-size: 9px;
+}
+
+.sunFlyDescription sup.firstArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 329px;
+}
+
+.sunFlyDescription sup.secondArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 320px;
+}
+
+.sunFlyDescription sup.thirdArrow {
+   position: absolute;
+   bottom: 21px;
+   right: 107px;
+}
+
+.product-title {
+   text-align: center;
+}
+
+.product-title h1 {
+   font-size: 38px;
+   color: #ababab;
+   font-weight: 600;
+   position: relative;
+}
+
+.product-title h1:before {
+   content: "";
+   position: absolute;
+   width: 35%;
+   height: 1px;
+   background: #ddd;
+   top: 12px;
+   right: 0px;
+}
+
+.product-title h1 span:before {
+   content: "";
+   position: absolute;
+   width: 35%;
+   height: 1px;
+   background: #ddd;
+   top: 37px;
+   right: 0px;
+}
+
+.product-title h1:after{
+   content: "";
+   position: absolute;
+   width: 35%;
+   height: 1px;
+   background: #ddd;
+   top: 12px;
+   left: 0px;
+}
+
+.product-title span:after{
+   content: "";
+   position: absolute;
+   width: 35%;
+   height: 1px;
+   background: #ddd;
+   top: 37px;
+   left: 0px;
+}
+
+.productsWrapper {
+   display: flex;
+   justify-content: space-between;
+   margin: 60px 0px;
+}
+
+.productImage img {
+   width: 100%;
+   display: block;
+ }
+
+.productsDescription h2 {
+   font-size: 37px;
+   color: #878787;
+   line-height: 20px;
+   font-weight: 600;
+}
+
+.productsDescription h3 {
+   font-size: 29px;
+   color: #878787;
+   font-weight: 600;
+}
+
+.productsDescription span.doller {
+   color: #878787;
+   font-size: 27px;
+   margin-right: 60px;
+}
+
+.productsDescription span.stars i {
+   color: #637247;
+   font-size: 20px;
+}
+
+i#blank_star {
+   color: #dcdcdc;
+}
+
+#rating{
+   font-size: 29px;
+   color: #878787;
+   margin-left: 10px;
+}
+
+.shopinList{
+   width: 500px;
+   background-image:linear-gradient(rgba(0,0,40,0.45),rgba(0,0,40,0.45)), url(image/fishing-gajet.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.northWrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.northRiver img {
+   display: block;
+   width: 100%;
+}
+
+.shopinList {
+   padding: 45px;
+}
+
+.shopinList h1 {
+   font-size: 41px;
+   color: #fff;
+   font-weight: 600;
+}
+
+.shopinList p {
+   font-size: 27px;
+   color: #fff;
+   text-align: justify;
+   line-height: 27px;
+}
+
+.shopinList button.shopinListBtn {
+   font-size: 21px;
+   margin-top: 28px;
+   background: transparent;
+   border: 2px solid #fff;
+   color: #fff;
+   padding: 10px;
+}
+
+section.himalays{
+   margin: 30px 0px;
+}
+
+.containerTwo{
+   width:100%;
+   background-image: linear-gradient(rgba(12, 66, 4, 0.4),rgba(12, 66, 4, 0.4)),url(image/himalayas.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.himalayWrapper{
+   width: 900px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.himalayImage {
+   margin: 40px 0px;
+   width: 300px;
+}
+
+.himalayImage img {
+   width: 100%;
+}
+
+.himalayDescription {
+   width: 270px;
+   margin: 54px 0px;
+}
+
+.himalayDescription p {
+   font-size: 24px;
+   color: #fff;
+}
+
+.himalayBtn{
+   width: 200px;
+   margin: 54px 0px;
+}
+
+.himalayBtn button {
+   width: 100%;
+   background: transparent;
+   color: white;
+   font-size: 27px;
+   border:2px solid #fff;
+   padding: 10px;
+}
+
+section.aboutCompany{
+   background: #f4f4f4;
+   overflow: hidden;
+   padding: 50px 0px;
+}
+
+.companyBox {
+   width: 188px;
+   margin: 0px 110px;
+   float: left;
+}
+
+.companyBox h2{
+   font-size: 25px;
+   color: #7d7d7d;
+   font-weight: 600;
+   text-transform: uppercase;
+}
+
+.companyBox ul li {
+   list-style: none;
+   margin: 10px 0px;
+}
+
+.companyBox ul li a{
+   font-size: 18px;
+   text-decoration: none;
+   color: #7d7d7d;
+}
+
+.companyBox:last-child {
+   width: 320px;
+   position: relative;
+}
+
+.companyBoxDescription {
+   position: absolute;
+   top: 7px;
+   left: 82px;
+   line-height: 22px;
+}
+
+.companyBoxDescription h1 {
+   font-size: 45px;
+   text-transform: uppercase;
+   color: #7d7d7d;
+   font-weight: 600;
+}
+
+.companyBoxDescription p {
+   font-size: 18px;
+   margin-top: 8px;
+   color: #7d7d7d;
+}
+
+footer {
+   background: #618138;
+}
+
+.footerContainer {
+   width: 1180px;
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.socail ul li {
+   list-style: none;
+   display: inline-block;
+   padding: 10px;
+}
+
+.socail ul li a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 16px;
+}
+
+.socail ul li a i {
+   margin: 0px 5px;
+}
+
+.copyright p {
+   color: #fff;
+   padding: 10px;
+}
+
+@media (max-width: 1280px){
+   .container {
+      width: 1280px;
+   }
+   .mainHeaderWrapper {
+      display: inline-block;
+      padding: 10px 20px;
+   }
+   .logo {
+      width: 250px;
+      float: left;
+      margin-right: 140px;
+   }
+   .headerInfo {
+      width: 850px;
+      float: left;
+   }
+   .headerInfo ul li a {
+      padding: 19px 31px;
+   }
+   .fishingGearWrapper {
+      display: inline-block;
+   }
+   .first {
+      width: 410px;
+      float: left;
+      margin-right: 25px;
+   }
+   .second {
+      width: 410px;
+      float: left;
+      margin-right: 25px;
+   }
+   .third {
+      width: 410px;
+      float: left;
+   }
+   .brandImg {
+      display: inline-block;
+   }
+   .brandImg .left-arrow {
+      width: 20px;
+      float: left;
+      margin-right: 15px;
+   }
+
+   .brandImg .brandList {
+      width: 1210px;
+      float: left;
+      margin-right: 15px;
+   }
+   .brandImg .right-arrow {
+      width: 20px;
+      float: left;
+   }
+   
+   .sun-defence {
+      width: 620px;
+      float: left;
+      margin-right: 10px;
+   }
+   .flyBox {
+      width: 620px;
+      float: left;
+   }
+   .sunFlyDescription {
+      width: 620px;
+   }
+   .sunFlyDescription sup.firstArrow {
+      right: 280px;
+   }
+   .sunFlyDescription sup.secondArrow {
+      right: 269px;
+   }
+   .fishingGearDescription sup.firstArrow {
+      right: 50px;
+      bottom: 19px;
+   }
+   .fishingGearDescription sup.secondArrow {
+      bottom: 19px;
+      right: 171px;
+   }
+   .fishingGearDescription sup.thirdArrow {
+      bottom: 19px;
+      right: 83px;
+   }
+   
+   .product-title h1:before {
+      width: 30%;
+      top: 13px;
+   }
+
+   .product-title h1 span:before {
+      width: 34%;
+   }
+
+   .product-title h1:after{
+      width: 34%;
+   }
+
+   .product-title span:after{
+      width: 34%;
+   }
+
+   .productsWrapper {
+      display: inline-block;
+      padding: 10px;
+   }
+   .productsBox {
+      width: 315px;
+      float: left;
+   }
+   .productsDescription h2 {
+      font-size: 34px;
+   }
+   .productsDescription h3 {
+      font-size: 27px;
+   }
+   .productsDescription span.doller {
+      margin-right: 45px;
+   }
+   .northWrapper {
+      display: inline-block;
+   }
+   .northRiver {
+      width: 700px;
+      float: left;
+   }
+   .shopinList {
+      width: 550px;
+      float: left;
+      margin-left: 30px;
+      padding: 40px;
+   }
+   .shopinList h1 {
+      font-size: 36px;
+   }
+   .shopinList p {
+      font-size: 24px;
+   }
+   .shopinList button.shopinListBtn {
+      font-size: 20px;
+      margin-top: 23px;
+   }
+
+   .companyBox {
+      margin: 0px 97px;
+   }
+}
+@media(max-width: 1024px){ 
+   .container {
+      width: 1024px;
+   }
+
+   .logo{
+      margin-right: 50px;
+   }
+
+   .headerInfo {
+      width: 684px;
+   }
+
+   .headerInfo ul li a {
+      padding: 15px;
+   }
+
+   header.products .productsList {
+      width: 1024px;
+   }
+
+   .productsList ul li {
+      padding: 17px;
+      margin-top: 40px;
+   }
+
+   .productsList ul li a {
+      font-size: 18px;
+   }
+
+   .first {
+      width: 330px;
+      margin-right: 17px;
+   }
+
+   .fishingGearDescription h2 {
+      font-size: 22px;
+   }
+
+   .second {
+      width: 330px;
+      margin-right: 17px;
+   }
+
+   .third {
+      width: 330px;
+   }
+
+   .fishingGearDescription p {
+      font-size: 17px;
+   }
+
+   .fishingGearDescription sup.firstArrow {
+      bottom: 18px;
+   }
+
+   .fishingGearDescription sup.secondArrow {
+      bottom: 18px;
+      right: 142px;
+   }
+
+   .fishingGearDescription sup.thirdArrow {
+      bottom: 18px;
+      right: 76px;
+   }
+
+   button.owl-prev span {
+      top: 100px;
+   }
+
+   button.owl-next span {
+      top: 100px;
+   }
+
+   .fishingGearDescription {
+      margin-top: 197px;
+   }
+   
+   .brandImg .left-arrow {
+      width: 18px;
+      height: 40px;
+      margin-right: 15px;
+   }
+
+   .brandImg .brandList {
+      width: 958px;
+      margin-right: 15px;
+      margin-top: 6px;
+   }
+
+   .brandImg .right-arrow {
+      width: 18px;
+      height: 40px;
+   }
+
+   .sun-defence {
+      width: 500px;
+      margin-right: 24px;
+   }
+
+   .sunFlyDescription {
+      width: 500px;
+      margin-top: 274px;
+   }
+
+   .flyBox {
+      width: 500px;
+      margin-left: 0px;
+   }
+
+   .sunFlyDescription h2 {
+      font-size: 25px;
+   }
+
+   .sunFlyDescription p {
+      font-size: 18px;
+   }
+
+   .productsBox {
+      width: 251px;
+   }
+
+   .productsDescription {
+      padding: 5px;
+   }
+
+   .productsDescription h2 {
+      font-size: 30px;
+   }
+
+   .productsDescription h3 {
+      font-size: 25px;
+   }
+
+   .productsDescription span.doller {
+      font-size: 23px;
+      margin-right: 20px;
+   }
+
+   .productsDescription span.stars i {
+      font-size: 16px;
+   }
+
+   #rating {
+      font-size: 23px;
+   }
+   
+   .title h1:before {
+      width: 33%;
+   }
+
+   .title h1 span:before {
+      width: 33%;
+      top: 35px;
+   }
+
+   .title h1:after{
+      width: 32%;
+   }
+
+   .title h1 span:after{
+      width: 32%;
+      top: 34px;
+   }
+   
+   .product-title h1:before {
+      width: 30%;
+   }
+
+   .product-title h1 span:before {
+      width: 30%;
+   }
+
+   .product-title h1:after{
+      width: 30%;
+      top: 13px;
+   }
+
+   .product-title span:after{
+      width: 30%;
+   }
+
+   .northRiver {
+      width: 550px;
+      margin-right: 24px;
+   }
+
+   .shopinList {
+      width: 450px;
+      margin-left: 0px;
+      padding: 30px;
+   }
+
+   .shopinList h1 {
+      font-size: 30px;
+   }
+
+   .shopinList p {
+      font-size: 19px;
+      line-height: 20px;
+   }
+
+   .shopinList button.shopinListBtn {
+      font-size: 18px;
+      margin-top: 15px;
+   }
+   
+   .companyBox {
+      margin: 0px 54px;
+   }
+   .footerContainer {
+      width: 1024px;
+      padding: 5px;
+   }
+
+}
+@media(max-width: 991px){
+   .container {
+      width: 991px;
+   }
+
+   .logo {
+      width: 217px;
+   }
+
+   nav ul li {
+      padding: 10px;
+   }
+
+   nav ul li a {
+      font-size: 18px;
+   }
+
+   .content {
+      width: 991px;
+   }
+
+   header.products .productsList {
+      width: 991px;
+   }
+
+   .productsList ul li {
+      padding: 15px;
+   }
+
+   .first {
+      width: 297px;
+   }
+
+   .fishingGearDescription h2 {
+      font-size: 20px;
+   }
+
+   .fishingGearDescription sup.firstArrow {
+      right: 17px;
+   }
+
+   .brandImg .brandList {
+      width: 925px;
+   }
+
+   .sun-defence {
+      width: 483px;
+   }
+
+   .sunFlyDescription {
+      width: 483px;
+   }
+
+   .sunFlyDescription sup.firstArrow {
+      right: 210px;
+      bottom: 18px;
+   }
+
+   .sunFlyDescription sup.secondArrow {
+      right: 201px;
+      bottom: 18px;
+   }
+
+   .flyBox {
+      width: 483px;
+   }
+  
+   .product-title h1:before {
+      width: 35%;
+   }
+
+   .product-title h1 span:before {
+      width: 35%;
+   }
+
+   .product-title h1:after{
+      width: 35%;
+   }
+
+   .product-title span:after{
+      width: 35%;
+   }
+
+   .productsBox {
+      width: 242px;
+   }
+
+   .northRiver {
+      width: 540px;
+   }
+
+   .shopinList {
+      width: 427px;
+   }
+
+   .companyBox {
+      margin: 0px 49px;
+   }
+
+   .footerContainer {
+      width: 991px;
+   }
+
+
+}   
+@media(max-width:900px){
+   .container{
+      width: 900px;
+   }
+  
+   .headerInfo {
+      width: 600px;
+   }
+
+   .headerInfo ul li a {
+      padding: 10px;
+      font-size: 14px;
+   }
+
+   .logo {
+      margin-right: 43px;
+      margin-top: 5px;
+   }
+
+   .headerInfo ul li {
+      margin-top: 17px;
+   }
+
+   .content {
+      width: 900px;
+   }
+
+   nav ul li a {
+      margin: 0px 24px;
+   }
+
+   header.products .productsList {
+      width: 900px;
+   }
+
+   .productsList ul li {
+      padding: 10px;
+      margin-top: 60px;
+   }
+
+   .first {
+      width: 290px;
+      margin-right: 15px;
+   }
+
+   .second {
+      width: 290px;
+      margin-right: 15px;
+   }
+
+   .third {
+      width: 290px;
+   }
+
+   .fishingGearDescription sup.firstArrow {
+      right: 13px;
+   }
+
+   .fishingGearDescription sup.secondArrow {
+      right: 103px;
+   }
+
+   .fishingGearDescription sup.thirdArrow {
+      right: 38px;
+   }
+
+   .title h1 {
+      font-size: 32px;
+   }
+ 
+   .title h1:before {
+      width: 34%;
+      top: 8px;
+   }
+
+   .title h1 span:before {
+      width: 34%;
+      top: 31px;
+   }
+
+   .title h1:after{
+      width: 34%;
+      top: 7px;
+   }
+
+   .title h1 span:after{
+      width: 34%;
+      top: 31px;
+   }
+
+   .brandImg .brandList {
+      width: 834px;
+   }
+
+   .sun-defence {
+      width: 440px;
+      margin-right: 20px;
+   }
+
+   .flyBox {
+      width: 440px;
+   }
+
+   .sunFlyDescription {
+      width: 440px;
+   }
+
+   .sunFlyDescription {
+      margin-top: 279px;
+   }
+
+   .sunFlyDescription h2 {
+      font-size: 22px;
+   }
+
+   .sunFlyDescription sup.firstArrow {
+      right: 166px;
+      bottom: 18px;
+   }
+
+   .sunFlyDescription sup.secondArrow {
+      bottom: 18px;
+      right: 159px;
+   }
+   
+   .product-title h1 {
+      font-size: 32px;
+   }
+   
+   .product-title h1:before {
+      width: 31%;
+      top: 10px;
+   }
+
+   .product-title h1 span:before {
+      width: 31%;
+      top: 32px;
+   }
+
+   .product-title h1:after{
+      width: 31%;
+      top: 10px;
+   }
+
+   .product-title span:after{
+      width: 31%;
+   }
+
+   .productsBox {
+      width: 220px;
+   }
+
+   .productsDescription h2 {
+      font-size: 28px;
+   }
+
+   .productsDescription h3 {
+      font-size: 23px;
+   }
+
+   .productsDescription span.doller {
+      font-size: 20px;
+      margin-right: 15px;
+   }
+
+   #rating {
+      font-size: 20px;
+   }
+
+   .northRiver {
+      width: 500px;
+      margin-right: 20px;
+    }
+
+    .shopinList {
+      width: 380px;
+      padding: 19px;
+    }
+
+   .himalayImage {
+      width: 250px;
+   }
+
+   .himalayWrapper {
+      width: 800px;
+   }
+
+   .himalayBtn button {
+      font-size: 21px;
+   }
+
+   .himalayDescription p {
+      font-size: 21px;
+   }
+
+   .companyBox {
+      margin: 0px 34px;
+   }
+
+   .companyBox h2 {
+      font-size: 22px;
+   }
+
+   .footerContainer {
+      width: 900px;
+      padding: 0px 15px;
+   }
+
+   .socail ul li {
+      padding: 7px;
+   }
+
+   .socail ul li a {
+      font-size: 13px;
+   }
+
+   .copyright p {
+      padding: 7px;
+      font-size: 13px;
+   }
+
+}
+@media(max-width: 800px){
+   .container{
+      width: 800px;
+   }
+
+   .headerInfo {
+      width: 530px;
+   }
+
+   .logo {
+      margin-right: 30px;
+      width: 200px;
+   }
+
+   .headerInfo ul li a {
+      padding: 9px;
+      font-size: 13px;
+   }
+
+   nav ul li a {
+      font-size: 17px;
+      margin: 0px 18px;
+   }
+
+   nav ul li {
+      padding-top: 15px;
+   }
+
+   header.products .productsList {
+      width: 800px;
+      height: 60px;
+   }
+
+   .productsList ul li {
+      padding: 11px;
+      margin-top: 11px;
+   }
+
+   .productsList ul li a {
+      font-size: 15px;
+   }
+   
+   .bannerDescription h1 {
+      font-size: 30px;
+   }
+
+   .bannerDescription p {
+      font-size: 20px;
+      margin-bottom: 18px;
+   }
+
+   .bannerDescription button {
+      font-size: 18px;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+   }
+
+   button.owl-prev span {
+      top: 64px;
+      font-size: 100px;
+   }
+
+   button.owl-next span {
+      top: 74px;
+      font-size: 100px;
+   }
+
+   .bannerDescription p {
+      font-size: 20px;
+      margin-bottom: 18px;
+   }
+
+   .bannerDescription button {
+      font-size: 18px;
+      padding: 10px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+   }
+
+   button.owl-prev span {
+      top: 64px;
+      font-size: 100px;
+   }
+
+   button.owl-next span {
+      top: 74px;
+      font-size: 100px;
+   }
+
+   .first {
+      width: 256px;
+   }
+
+   .second {
+      width: 257px;
+   }
+
+   .third {
+      width: 257px;
+   }
+
+   .fishingGearDescription h2 {
+      font-size: 17px;
+   }
+
+   .fishingGearDescription p {
+      font-size: 15px;
+   }
+
+   .fishingGearDescription sup.secondArrow {
+      right: 87px;
+      bottom: 16px;
+   }
+
+   .fishingGearDescription sup.firstArrow {
+      right: 5px;
+      bottom: 16px;
+   }
+
+   .fishingGearDescription sup.thirdArrow {
+      right: 30px;
+      bottom: 16px;
+   }
+   
+   .title h1 {
+      font-size: 28px;
+   }
+
+   .brandImg .left-arrow {
+      height: 30px;
+   }
+
+   .brandImg .brandList {
+      width: 734px;
+   }
+
+   .brandImg .right-arrow {
+      height: 30px;
+   }
+
+   .sun-defence {
+      width: 390px;
+      margin-right: 20px;
+   }
+
+   .flyBox {
+      width: 390px;
+   }
+
+   .sunFlyDescription {
+      width: 390px;
+   }
+
+   .sunFlyDescription h2 {
+      font-size: 18px;
+   }
+
+   .sunFlyDescription p {
+      font-size: 16px;
+   }
+
+   .sunFlyDescription {
+      margin-top: 286px;
+   }
+
+   .sunFlyDescription sup.firstArrow {
+      right: 146px;
+      bottom: 20px;
+   }
+   
+   .product-title h1 {
+      font-size: 28px;
+   }
+   
+   .product-title h1:before {
+      width: 31%;
+      top: 6px;
+   }
+
+   .product-title h1 span:before {
+      width: 31%;
+   }
+
+   .product-title h1:after{
+      width: 31%;
+      top: 6px;
+   }
+
+   .product-title span:after{
+      width: 31%;
+      top: 32px;
+   }
+   .productsBox {
+     width: 195px;
+   }
+   .productsDescription h2 {
+     font-size: 24px;
+   }
+   .productsDescription h3 {
+     font-size: 20px;
+   }
+   .productsDescription span.doller {
+     font-size: 18px;
+   }
+   .productsDescription span.stars i {
+     font-size: 12px;
+   }
+   #rating {
+     font-size: 18px;
+   }
+   .northRiver {
+      width: 450px;
+   }
+   .shopinList {
+      width: 330px;
+   }
+   .shopinList h1 {
+      font-size: 25px;
+   }
+   .shopinList p {
+      font-size: 16px;
+   }
+   .shopinList button.shopinListBtn {
+      font-size: 16px;
+      border-radius: 3px;
+      border: 2px solid #ddd;
+      padding: 8px 15px;
+      margin-top: 6px;
+   }
+   .productsWrapper {
+      margin: 30px 0px;
+   }
+   .himalayWrapper {
+     width: 700px;
+   }
+   .himalayImage {
+     width: 200px;
+     margin: 46px 0px;
+   }
+   .himalayDescription {
+     width: 250px;
+   }
+   .himalayDescription p {
+     font-size: 18px;
+   }
+   .himalayBtn {
+     width: 150px;
+   }
+   .himalayBtn button {
+     font-size: 18px;
+     padding: 8px 15px;
+     border-radius: 3px;
+     border: 2px solid #ddd;
+   }
+   .companyBox {
+     margin: 0px 17px;
+   }
+   .companyBox h2 {
+     font-size: 20px;
+   }
+   .footerContainer {
+     width: 800px;
+   }
+   .copyright p {
+     font-size: 11px;
+   }
+
+
+}
+@media(max-width: 768px){
+   .container{
+      width: 768px;
+   }
+   .logo {
+      margin-right: 13px;
+   }
+   .headerInfo {
+      width: 545px;
+   }
+   .mainHeaderWrapper {
+      padding: 0px 5px;
+   }
+   .menuBar {
+      display: none;
+   }
+   .productsList ul li a {
+      font-size: 14px;
+   }
+   .first {
+      width: 250px;
+      margin-right: 9px;
+   }
+   .second {
+      width: 250px;
+      margin-right: 9px;
+   }
+   .third {
+      width: 250px;
+   }
+   .fishingGearDescription p {
+      font-size: 14px;
+   }
+   .brandImg .brandList {
+      width: 702px;
+   }
+   .sun-defence {
+      margin-right: 10px;
+      width: 379px;
+   }
+   .flyBox {
+      width: 379px;
+   }
+   .sunFlyDescription {
+      width: 379px;
+   }
+   .sunFlyDescription sup.firstArrow {
+      right: 134px;
+      bottom: 19px;
+   }
+   .sunFlyDescription sup.secondArrow {
+      bottom: 19px;
+      right: 127px;
+   }
+   .productsBox {
+      width: 187px;
+   }
+   .northRiver {
+      width: 420px;
+      margin-right: 8px;
+   }
+   .shopinList {
+      width: 340px;
+      padding: 13px;
+   }
+   .companyBox {
+      margin: 0px 12px;
+   }
+   .socail ul li a {
+      font-size: 11px;
+   }
+   .footerContainer {
+      width: 768px;
+   }
+}
+@media(max-width: 600px){
+   .container{
+      width: 600px;
+   }
+   header.top p {
+      font-size: 15px;
+   }
+   .logo {
+      width: 120px;
+      margin-right: 20px;
+      padding: 12px 0px;
+   }
+   .headerInfo {
+      width: 450px;
+   }
+   .headerInfo ul li a {
+      font-size: 10px;
+      padding: 12px 8px;
+      color:#262525;
+   }
+   header.products .productsList {
+     width: 600px;
+   }
+   .productsList ul li a {
+     font-size: 12px;
+     padding: 6px;
+     color: #201f1f;
+   }
+   .productsList ul li {
+     padding: 0px;
+     margin-top: 20px;
+   }
+   .bannerDescription {
+     top: 33px;
+     left: 30px;
+   }
+   .bannerDescription h1 {
+     font-size: 26px;
+   }
+   .bannerDescription p {
+     font-size: 18px;
+   }
+   .bannerDescription button {
+     font-size: 18px;
+     padding: 8px;
+     width: 150px;
+   }
+   .first {
+     width: 194px;
+     height: 160px;
+   }
+   .second {
+     width: 194px;
+     height: 160px;
+   }
+   .third {
+     width: 194px;
+     height: 160px;
+   }
+   .fishingGearDescription {
+     margin-top: 113px;
+     padding: 5px;
+   }
+   .fishingGearDescription h2 {
+     font-size: 17px;
+     font-weight: 400;
+   }
+   .fishingGearDescription p {
+     font-size: 12px;
+   }
+   .fishingGearDescription sup.firstArrow i {
+     font-size: 8px;
+   }
+   .fishingGearDescription sup.firstArrow {
+     bottom: 5px;
+     right: 1px;
+   }
+   .fishingGearDescription sup.secondArrow i {
+     font-size: 8px;
+   }
+   .fishingGearDescription sup.secondArrow {
+     bottom: 5px;
+     right: 65px;
+   }
+   .fishingGearDescription sup.thirdArrow i {
+     font-size: 8px;
+   }
+   .fishingGearDescription sup.thirdArrow {
+     bottom: 5px;
+     right: 19px;
+   }
+   .title h1 {
+     font-size: 22px;
+   }
+   .title h1:before {
+      width: 33%;
+      top: 8px;
+   }
+   .title h1 span:before {
+      width: 33%;
+      top: 26px;
+   }
+   .title h1:after{
+      width: 33%;
+      top: 7px;
+   }
+   .title h1 span:after{
+      width: 33%;
+      top: 25px;
+   }
+   .brandImg .left-arrow {
+     height: 25px;
+     width: 15px;
+   }
+   .brandImg .brandList {
+     width: 540px;
+     margin-top: 10px;
+   }
+   .brandImg .right-arrow {
+     width: 15px;
+     height: 25px;
+   }
+   .brandImg {
+     padding: 30px 0px;
+   }
+   .flyBox {
+     width: 290px;
+     height: 150px;
+   }
+   .sunFlyDescription {
+     width: 290px;
+     margin-top: 73px;
+   }
+   .sun-defence {
+     width: 290px;
+     height: 150px;
+   }
+   .sunFlyDescription sup.firstArrow {
+     right: 42px;
+   }
+   .sunFlyDescription sup.secondArrow {
+     right: 36px;
+   }
+   .product-title h1 {
+      font-size: 22px;
+   }
+   .product-title h1:before {
+      width: 30%;
+      top: 7px;
+   }
+   .product-title h1 span:before {
+      width: 30%;
+      top: 24px;
+   }
+   .product-title h1:after{
+      width: 30%;
+      top: 7px;
+   }
+   .product-title span:after{
+      width: 30%;
+      top: 24px;
+   }
+   .productsBox {
+     width: 285px;
+   }
+   .productsDescription {
+     padding: 10px;
+   }
+   .productsDescription h2 {
+     font-size: 28px;
+   }
+   .productsDescription h3 {
+     font-size: 24px;
+   }
+   .productsDescription span.doller {
+     font-size: 20px;
+   }
+   .productsDescription span.stars i {
+     font-size: 16px;
+   }
+   #rating {
+     font-size: 20px;
+   }
+   .productsWrapper {
+     padding: 15px;
+   }
+   .northRiver {
+     width: 340px;
+     margin-right: 10px;
+     height: 187px;
+   }
+   .shopinList {
+     width: 250px;
+   }
+   .shopinList h1 {
+     font-size: 20px;
+   }
+   .shopinList p {
+     font-size: 15px;
+     line-height: 18px;
+   }
+   .shopinList button.shopinListBtn {
+     font-size: 15px;
+   }
+   .northRiver img {
+     height: 100%;
+   }
+   .northRiver {
+     width: 340px;
+     margin-right: 10px;
+     height: 187px;
+   }
+   .shopinList {
+     width: 250px;
+   }
+   .shopinList h1 {
+     font-size: 20px;
+   }
+   .shopinList p {
+     font-size: 15px;
+     line-height: 18px;
+   }
+   .shopinList button.shopinListBtn {
+     font-size: 15px;
+   }
+   .northRiver img {
+     height: 100%;
+   }
+   .himalayWrapper {
+     width: 500px;
+   }
+   .himalayImage {
+     width: 150px;
+     margin: 51px 0px;
+   }
+   .himalayDescription {
+     width: 200px;
+   }
+   .himalayBtn {
+     width: 100px;
+   }
+   .himalayBtn button {
+     font-size: 14px;
+   }
+   .himalayDescription p {
+     font-size: 15px;
+   }
+   .companyBox {
+     padding: 10px;
+     margin: 0px;
+     width: 140px;
+   }
+   .companyBox h2 {
+     font-size: 16px;
+   }
+   .companyBox ul li a {
+     font-size: 15px;
+   }
+   .companyBox ul li {
+     margin: 5px 0px;
+   }
+   .companyPaymentOption {
+     width: 316px;
+   }
+   .footerContainer {
+     width: 600px;
+   }
+   .copyright p {
+     line-height: 24px;
+     font-size: 13px;
+   }
+   .socail ul li a {
+     font-size: 13px;
+   }
+}
+@media(max-width: 411px){
+   .container{
+      width: 411px;
+   }
+   .logo {
+      width: 411px;
+   }
+   .headerInfo {
+     width: 100%;
+   }
+   .headerInfo ul li a {
+     padding: 7px;
+   }
+   .productsList ul li a {
+     font-size: 15px;
+     padding: 10px;
+   }
+   header.products .productsList {
+     width: 411px;
+     height: 93px;
+   }
+   .bannerDescription h1 {
+     font-size: 20px;
+   }
+   .bannerDescription {
+     top: 17px;
+     left: 15px;
+   }
+   .first {
+     width: 411px;
+   }
+   .second {
+     width: 411px;
+     margin-top: 10px;
+   }
+   .third {
+     width: 411px;
+     margin-top: 10px;
+   }
+   .fishingGearDescription {
+     padding: 10px;
+     margin-top: 94px;
+   }
+   .fishingGearDescription h2 {
+     font-size: 20px;
+   }
+   .fishingGearDescription p {
+     font-size: 16px;
+   }
+   .fishingGearDescription sup.firstArrow i {
+     font-size: 13px;
+   }
+   .fishingGearDescription sup.firstArrow {
+     bottom: 10px;
+     right: 150px;
+   }
+   .fishingGearDescription sup.secondArrow i {
+      font-size: 13px;
+   }
+    .fishingGearDescription sup.secondArrow {
+      bottom: 10px;
+      right: 234px;
+   }
+    .fishingGearDescription sup.thirdArrow i {
+      font-size: 13px;
+   }
+    .fishingGearDescription sup.thirdArrow {
+      bottom: 10px;
+      right: 172px;
+   }
+   .title h1:before {
+      width: 26%;
+      top: 6px;
+   }
+   .title h1 span:before {
+      width: 26%;
+      top: 24px;
+   }
+   .title h1:after{
+      width: 26%;
+      top: 6px;
+   }
+   .title h1 span:after{
+      width: 26%;
+      top: 25px;
+   }
+   .brandImg .left-arrow {
+     width: 15px;
+     height: 20px;
+     margin-right: 8px;
+     margin-top: 10px;
+   }
+   .brandImg .brandList {
+     width: 365px;
+     margin-right: 8px;
+   }
+   .brandImg .right-arrow {
+     width: 15px;
+     height: 20px;
+   }
+   .sun-defence {
+     width: 411px;
+     height: 200px;
+   }
+   .flyBox {
+     width: 411px;
+     height: 200px;
+     margin-top: 15px;
+   }
+   .sunFlyDescription {
+     width: 4111px;
+     margin-top: 123px;
+   }
+   .product-title h1:before {
+      width: 22%;
+      top: 6px;
+   }
+   .product-title h1 span:before {
+      width: 22%;
+   }
+   .product-title h1:after{
+      width: 22%;
+      top: 6px;
+   }
+   .product-title span:after{
+      width: 22%;
+      top: 24px;
+   }
+   .productsWrapper {
+     margin: 0px 0px;
+   }
+   .productsBox {
+     width: 100%;
+   }
+   .productsDescription {
+     padding: 0px 74px;
+   }
+   .productsWrapper {
+     margin: 0px 0px;
+   }
+   .productsBox {
+     width: 100%;
+   }
+   .productsDescription {
+     padding: 0px 20px;
+   }
+   .northRiver {
+     width: 100%;
+   }
+   .shopinList {
+     width: 100%;
+     margin-top: 15px;
+   }
+   .himalayWrapper {
+     width: 411px;
+     display: block;
+     padding: 0px 30px;
+   }
+   .himalayImage {
+     width: 80%;
+     margin: 20px auto;
+     padding-top: 10px;
+   }
+   .himalayDescription {
+     width: 80%;
+     margin: auto;
+   }
+   .himalayDescription p {
+     font-size: 20px;
+     text-align: center;
+   }
+   .himalayBtn {
+     width: 150px;
+     margin: auto;
+     padding: 10px 0px;
+   }
+   .companyBox:last-child {
+     width: 100%;
+     margin-top: 15px;
+   }
+   .companyBox {
+     width: 205px;
+   }
+   .footerContainer {
+     width: 411px;
+   }
+   .socail ul li a {
+     font-size: 15px;
+   }
+   .copyright p {
+     font-size: 15px;
+   }
+}
+@media(max-width: 375px){
+   .container{
+      width:375px;
+   }
+   .title h1:before {
+      width: 24%;
+      top: 2px;
+   }
+   .title h1 span:before {
+      width: 24%;
+      top: 22px;
+   }
+   .title h1:after{
+      width: 24%;
+      top: 3px;
+   }
+   .title h1 span:after{
+      width: 24%;
+      top: 22px;
+   }   
+   .brandImg .brandList {
+      width: 329px;
+    }   
+   .product-title h1:before {
+      width: 22%;
+      top: 6px;
+   }
+   .product-title h1 span:before {
+      width: 22%;
+   }
+   .product-title h1:after{
+      width: 22%;
+      top: 6px;
+   }
+   .product-title span:after{
+      width: 22%;
+      top: 24px;
+   }
+   .copyright p {
+     font-size: 13px;
+     line-height: 17px;
+     margin-top: 25px;
+   }
+   .footerContainer {
+     width: 375px;
+   }
+}
